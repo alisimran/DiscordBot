@@ -5,7 +5,7 @@ from discord.ext import commands
 # this is a subclass of discord.Client
 # anything that we did before can be done with this too
 # command prefix : what message content should contain intitially
-
+TOKEN = ''
 
 bot = commands.Bot(command_prefix='|')
 # To remove a default command and rewrite it
@@ -57,4 +57,4 @@ async def punch(ctx, arg):
 
 
 
-bot.run('ODk5NjMwMTYyNTk1OTcxMTAy.YW1j4Q.5oRQSJv4kD8HiYPa46OQm7bdtMs')
+bot.run(TOKEN)
