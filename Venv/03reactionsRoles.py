@@ -12,7 +12,7 @@ async def on_message_delete(message):
         f'{message.author} deleted a message.'
     )
 """
-
+TOKEN = ''
 # Alternative: to create custom class
 class myclient(discord.Client):
     def __init__(self, *args, **kwargs):
@@ -72,5 +72,5 @@ intents.members = True
 client = myclient(intents=intents)
 
 # Run the client by passing the token
-client.run('ODk5NjMwMTYyNTk1OTcxMTAy.YW1j4Q.5oRQSJv4kD8HiYPa46OQm7bdtMs')
+client.run(TOKEN)
 
