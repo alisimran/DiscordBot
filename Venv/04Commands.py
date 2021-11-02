@@ -4,6 +4,7 @@ from discord.ext import commands
 # anything that we did before can be done with this too
 # command prefix : what message content should contain intitially
 
+TOKEN = ''
 
 bot = commands.Bot(command_prefix='|')
 
@@ -44,4 +45,4 @@ async def info(ctx):
     await ctx.send(ctx.author)
     await ctx.send(ctx.message.id)
 
-bot.run('ODk5NjMwMTYyNTk1OTcxMTAy.YW1j4Q.5oRQSJv4kD8HiYPa46OQm7bdtMs')
+bot.run(TOKEN)
