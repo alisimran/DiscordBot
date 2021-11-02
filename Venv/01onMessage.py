@@ -1,6 +1,6 @@
 import discord
 import random
-
+TOKEN = ''
 
 #Using this client object to talk to discord api or socket
 client = discord.Client()
@@ -50,5 +50,5 @@ async def on_message(message):
 
 
 # Run the client by passing the token
-client.run('ODk5NjMwMTYyNTk1OTcxMTAy.YW1j4Q.5oRQSJv4kD8HiYPa46OQm7bdtMs')
+client.run(TOKEN)
 
