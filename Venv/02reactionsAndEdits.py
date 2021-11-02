@@ -2,7 +2,7 @@ import discord
 
 # Using this client object to talk to discord api or socket
 client = discord.Client()
-
+TOKEN = ''
 # Any event in discord can be listened
 
 # called whenever the bot is online or logged in
@@ -45,4 +45,4 @@ async def on_reaction_add(reaction, user):
 
 
 # Run the client by passing the token
-client.run('ODk5NjMwMTYyNTk1OTcxMTAy.YW1j4Q.5oRQSJv4kD8HiYPa46OQm7bdtMs')
+client.run(TOKEN)
